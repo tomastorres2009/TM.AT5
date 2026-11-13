@@ -19,7 +19,7 @@
   html,body{margin:0;background:var(--fondo);color:var(--texto);
     font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
   a{color:var(--acento2)}
-  .portada{position:relative;min-height:78vh;display:flex;align-items:flex-end;
+  .portada{position:relative;min-height:min(78vh,640px);display:flex;align-items:flex-end;
     background:#09141b url(img/volcan.jpg) center/cover no-repeat}
   .portada::after{content:"";position:absolute;inset:0;
     background:linear-gradient(180deg,rgba(13,27,36,.15) 0%,rgba(13,27,36,.35) 45%,var(--fondo) 100%)}
